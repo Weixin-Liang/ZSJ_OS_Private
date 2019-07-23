@@ -10,7 +10,6 @@ It is an mini-OS running on a FPGA board.
 
 **My work**:
 
-+ **src/kernel/mm/**: The memory management modules
-+ **src/kernel/driver/vga_graphics.c**: The VGA graphics controller
-+ **src/kernel/syscall/usr_syscalls.c**: The VGA system calls
-+ **src/usr/showimg.c, showimg.h**: Functions of displaying a BMP picture on the screen.
++ **src/kernel/pc/**: The Process Control module
++ **src/kernel/schedule/**: The Process Scheduling module
++ **src/kernel/syncronization/**: The syncronization module
